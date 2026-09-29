@@ -1,0 +1,2 @@
+# yamatosubblog
+blog
