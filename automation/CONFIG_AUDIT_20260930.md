@@ -15,7 +15,8 @@ END:VEVENT
 - GitHub 连接已成功读取/写入仓库，permissions.push=true。allow_auto_merge=false。main 分支响应 protected=false，required_status_checks 为空，rulesets=[]。
 - 直接读取分支保护细节返回 403 Resource not accessible by integration。已获得分支概要与 rulesets 信息，但连接不能读取/管理完整保护配置；不能声称所有管理权限可用。
 - 仓库树只含 .github/workflows/yamatosub-blog-import.yml。它监听 main 的文章 JSON push，合并后执行导入；没有 pull_request 稿件验证检查。这不是合并前门禁。
-- README 没有接口正文长度上下限/计数方式/完整 HTML 白名单；当前应用代码也不在此仓库。需管理员提供现行导入验证源码或可信配置说明，不能猜数值。历史稿导入成功只证明那份稿被接受，不能推断完整边界。
+- 已根据上传说明及 3.2.5 安装包核对 app/api/internal/blog-import/route.ts、lib/rich-text.ts、lib/repositories/blog-automation.ts，详见 automation/BLOG_IMPORT_RULES_V3.2.5.md。源码默认 minimumCharacters=1200，后台可设置 300–20000，比较清洗后纯文本的 JavaScript UTF-16 length。线上部署是否一致、实际最低值仍未确认；不能以默认值冒充线上设置。历史稿导入成功只证明该稿被接受。
+- README 的九字段是仓库编辑规范；服务端要求清理后的 title、slug、正文纯文本非空，另接受可选 coverImage。超长字符串在服务端 trim/slice 截断；验证器主动拒绝超长属于更严格投稿要求。
 - 本配置 PR 只涉及规划、提示、选题和本核对文档，不改安全设置、凭据、发布工作流，也不改历史文章。
 
 ## 今日手动验证：复用已有稿
@@ -30,11 +31,11 @@ END:VEVENT
 ## 待用户确认的具体配置方案（尚未执行）
 1. 先确认并合并本配置 PR，使 main 可读取长期规划；配置 PR 不属于文章自动合并范围。
 2. 单独提交新的 PR 稿件验证工作流与验证脚本，不能混入每日文章 PR，不改变已有导入工作流。建议固定检查名 blog-validation，on: pull_request（opened/synchronize/reopened/ready_for_review）；不使用 pull_request_target 执行投稿代码，不读导入凭据，permissions: contents: read。检查总是产生结果，配置 PR 走明确的配置范围校验分支，不因 paths 过滤导致必要检查永远等待。
-3. 稿件检查至少验证：相对 base/head 的完整修改范围；只允许一个新增 automation/blog-inbox/YYYY-MM-DD-slug.json 与选题表；不改旧稿；JSON 的十字段/类型/source；slug 与文件名日期一致；北京时间同日一篇；main 与 PR 数据中的标题/slug 重复；允许 HTML 标签/属性、href 协议；导入接口的实际长度和字段阈值；主题更新与稿件对应；已用和未知字段不丢失。访问官网重复性与事实核查在任务中执行，并把证据和精确 head SHA 写 PR；机器检查不能替代编辑核验。网络链接检查区分正常重定向、认证/403 和临时失败，不把不确定当通过。
+3. 稿件检查至少验证：相对 base/head 的完整修改范围；只允许一个新增 automation/blog-inbox/YYYY-MM-DD-slug.json 与选题表；不改旧稿；JSON 的九个约定字段/类型/source（coverImage 可选，不能强制旧稿包含）；slug 与文件名日期一致；北京时间同日一篇；main 与 PR 数据中的标题/slug 重复；允许 HTML 标签/属性、href 协议；导入接口的实际长度和字段阈值；主题更新与稿件对应；已用和未知字段不丢失。访问官网重复性与事实核查在任务中执行，并把证据和精确 head SHA 写 PR；机器检查不能替代编辑核验。网络链接检查区分正常重定向、认证/403 和临时失败，不把不确定当通过。
 4. 对配置 PR 使用单独的文档/JSON 校验路径，确认变更范围只涉及获授权配置；它通过检查也不能由日常任务自动合并。增加验证脚本的正反测试（危险 HTML、重复标题、超范围改文件、日期重投、旧条目被覆盖、长度边界）。
 5. 验证检查真实运行成功后，在 Settings → Branches/Rules → main 建立/保留保护：Require a pull request before merging；Require status checks to pass，勾选 blog-validation 并要求与 base 保持最新；禁止强推/删除和自动化绕过。已有审核要求保留，自动任务不能代替审核员。不要将合并后才运行的 import-draft 设为 PR 必需检查，否则合并前永远不会出现。
 6. Settings → General → Pull Requests → Allow auto-merge。确认 GitHub 连接对本仓库有 Contents 与 Pull requests 写权限、Actions/Checks 读权限；管理规则由管理员操作。导入只需现有 Actions secrets，已成功使用，无需展示或更换凭据。不能只给 Actions 的 GITHUB_TOKEN 写权限就声称云端 GitHub 连接有合并权限。
-7. 提供现行导入长度/HTML规则后，在独立配置变更中记录并同步验证器。网站保持 draft，不改自动公开状态。
+7. 3.2.5 源码规则已取得；独立配置 PR 复用源码清洗/纯文本算法，最低长度采用源码默认 1200 的明确标注模式。线上实际值通过可信配置确认后再启用文章自动合并；网站保持 draft，不改自动公开状态。
 8. 确认原博客任务 ID 后，更新那个任务的 prompt、时区和日历；回读保存结果，明确下一次执行时间。由于当前缺失原任务，目标时间不能报告为已保存。
 9. 新流程端到端验收需未来一天的一篇新稿：创建 PR → 最新 head 的必要检查成功 → GitHub auto_merge 接受 → 合并 SHA 对应导入成功 → draft/published 分别核对。今天仅做配置与已有投递的手动验证，不伪称已经测试了自动合并。
 
