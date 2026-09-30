@@ -35,12 +35,12 @@ END:VEVENT
 4. 对配置 PR 使用单独的文档/JSON 校验路径，确认变更范围只涉及获授权配置；它通过检查也不能由日常任务自动合并。增加验证脚本的正反测试（危险 HTML、重复标题、超范围改文件、日期重投、旧条目被覆盖、长度边界）。
 5. 验证检查真实运行成功后，在 Settings → Branches/Rules → main 建立/保留保护：Require a pull request before merging；Require status checks to pass，勾选 blog-validation 并要求与 base 保持最新；禁止强推/删除和自动化绕过。已有审核要求保留，自动任务不能代替审核员。不要将合并后才运行的 import-draft 设为 PR 必需检查，否则合并前永远不会出现。
 6. Settings → General → Pull Requests → Allow auto-merge。确认 GitHub 连接对本仓库有 Contents 与 Pull requests 写权限、Actions/Checks 读权限；管理规则由管理员操作。导入只需现有 Actions secrets，已成功使用，无需展示或更换凭据。不能只给 Actions 的 GITHUB_TOKEN 写权限就声称云端 GitHub 连接有合并权限。
-7. 3.2.5 源码规则已取得；独立配置 PR 复用源码清洗/纯文本算法，最低长度采用源码默认 1200 的明确标注模式。线上实际值通过可信配置确认后再启用文章自动合并；网站保持 draft，不改自动公开状态。
+7. 3.2.5 源码规则已取得；独立配置 PR 复用源码清洗/纯文本算法，最低长度采用源码默认 1200 的明确标注模式。线上实际值通过可信配置确认后才允许文章 PR 通过自检并请求自动合并；网站保持 draft，不改自动公开状态。
 8. 用户确认旧任务不存在后已新建并启用，每天北京时间 10:00。任务内容明确要求 PR #3/#4 未合并或合并后检查未成功时只报配置未就绪。已回读启用状态及日程，next_run_time 仍为 null，待平台产生时间回显。
-9. 新流程端到端验收需未来一天的一篇新稿：创建 PR → 最新 head 的必要检查成功 → GitHub auto_merge 接受 → 合并 SHA 对应导入成功 → draft/published 分别核对。今天仅做配置与已有投递的手动验证，不伪称已经测试了自动合并。
+9. 新流程端到端验收需未来一天的一篇新稿：创建 PR 并完成自检 → 必要检查等待期间请求 GitHub auto_merge → 必要检查及审核通过后合并 → 合并 SHA 对应导入成功 → draft/published 分别核对。今天仅做配置与已有投递的手动验证，不伪称已经测试了自动合并。
 
 ## 已保存任务的规则摘要
-执行 Jackdev88/yamatosubblog 的中文博客编辑与投递。每次从仓库 main 读取 automation/EDITORIAL_PLAN_CN.md、automation/CODEX_TASK_PROMPT_CN.md、automation/README.md、automation/seo-topics.json 和当前博客导入工作流；严格执行这些长期规则，不依赖临时附件或聊天记忆。访问 https://www.yamatosub.com/blog 核对已有内容。按 Asia/Shanghai 日期同日最多一篇，已有稿先核对并处理原 PR/导入，不另建稿。交替用户场景，先官方研究再写作，事实不可核验就换题。保留历史和现有 JSON 字段约定。日常 PR 仅改一个新增文章 JSON 与选题表；只有本任务稿件、范围正确、内容自检与实际接口长度规则确认、最新 SHA 必要检查通过、保护规则与 GitHub 自动合并可用时才启用自动合并，不直接推 main，不绕过审核或失败检查。配置未就绪时保留 PR 并报告具体阻塞。合并后检查对应导入工作流与业务响应，成功不重试，草稿不擅自公开。待写不足七篇时研究补题并先去重。每次报告主题/目标用户、PR与合并状态、工作流结果、网站草稿/公开/无法确认和需要用户处理的事项。
+执行 Jackdev88/yamatosubblog 的中文博客编辑与投递。每次从仓库 main 读取 automation/EDITORIAL_PLAN_CN.md、automation/CODEX_TASK_PROMPT_CN.md、automation/README.md、automation/seo-topics.json 和当前博客导入工作流；严格执行这些长期规则，不依赖临时附件或聊天记忆。访问 https://www.yamatosub.com/blog 核对已有内容。按 Asia/Shanghai 日期同日最多一篇，已有稿先核对并处理原 PR/导入，不另建稿。交替用户场景，先官方研究再写作，事实不可核验就换题。保留历史和现有 JSON 字段约定。日常 PR 仅改一个新增文章 JSON 与选题表；只有本任务稿件、范围正确、内容自检与实际接口长度规则确认、最新 SHA 必要检查已触发并等待、保护规则与 GitHub 自动合并可用时即可请求自动合并，由 GitHub 等检查及审核通过后合并；失败时保留 PR，不直接推 main，不绕过审核或失败检查。配置未就绪时保留 PR 并报告具体阻塞。合并后检查对应导入工作流与业务响应，成功不重试，草稿不擅自公开。待写不足七篇时研究补题并先去重。每次报告主题/目标用户、PR与合并状态、工作流结果、网站草稿/公开/无法确认和需要用户处理的事项。
 
 ## 官方配置依据
 - https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/automatically-merging-a-pull-request
