@@ -1,5 +1,5 @@
 [
-  {"topic":"SRT 字幕时间轴不准确怎么办","intent":"教程","status":"pending"},
+  {"topic":"SRT 字幕时间轴不准确怎么办","intent":"教程","status":"used","usedAt":"2026-09-30"},
   {"topic":"字幕整体提前或延后怎么调整","intent":"教程","status":"pending"},
   {"topic":"SRT 和 VTT 有什么区别","intent":"知识","status":"pending"},
   {"topic":"SRT 怎么转换成 VTT","intent":"教程","status":"pending"},
