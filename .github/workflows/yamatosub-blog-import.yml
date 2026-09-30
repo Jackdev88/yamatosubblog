@@ -2,6 +2,7 @@ name: Import YamatoSub blog drafts
 
 on:
   push:
+    branches: [main]
     paths:
       - 'automation/blog-inbox/*.json'
 
