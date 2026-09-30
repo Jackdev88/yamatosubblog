@@ -2,7 +2,7 @@
 
 ## 运行目标与配置
 仓库：Jackdev88/yamatosubblog。网站：https://www.yamatosub.com/。
-目标执行时间：每天北京时间 10:00，IANA 时区 Asia/Shanghai。此文件记录目标配置，不证明定时任务已保存或启用。只更新已经确认属于本博客的云端任务，不创建重复任务，不改用其他任务。
+目标执行时间：每天北京时间 10:00，IANA 时区 Asia/Shanghai。此文件记录目标配置，不证明定时任务已保存或启用。用户确认旧博客任务不存在后，已创建并启用唯一云端博客任务；后续只更新此任务，不创建重复任务。
 每次运行都从仓库 main 读取本文件、automation/EDITORIAL_PLAN_CN.md、automation/README.md、automation/seo-topics.json 和当前博客导入工作流；不依赖聊天记忆、电脑文件、临时附件，也不调用 OpenAI API。规划缺失或配置 PR 尚未合并时，报告阻塞，不沿用旧提示生成文章。用户最新明确指令优先，产品当前事实须重新核验。
 
 ## 每次执行
@@ -28,6 +28,6 @@
 - 失败环节、需要用户处理的具体事项。工具/网络不可用时明确报告，聊天正文不等于投递。
 
 ## 当前阻塞记录（2026-09-30）
-任务检索未发现本仓库的每日博客任务，不能更新未知 ID，禁止创建替代任务。
-仓库 allow_auto_merge=false；main protected=false、rulesets=[]；仅有 main push 导入工作流，没有 PR 验证工作流。源码默认最低正文长度为 1200，按清洗后纯文本的 JavaScript UTF-16 length 计算，后台可设置 300–20000；线上实际值未确认，不能等同源码默认值。验证依据见 automation/BLOG_IMPORT_RULES_V3.2.5.md（源码核验，不证明线上部署一致）。
+用户确认旧任务不存在后，新建的博客任务已启用，日程为每天北京时间 10:00。PR #3 或 #4 未合并时，任务仅报告“配置未就绪”，不按旧规则生成文章。任务接口暂未返回 next_run_time，应在首次运行后核查。
+仓库 allow_auto_merge=false；main protected=false、rulesets=[]；main 尚未包含 PR 验证工作流；独立配置 PR #4 的 blog-validation 检查已在 PR 上成功。源码默认最低正文长度为 1200，按清洗后纯文本的 JavaScript UTF-16 length 计算，后台可设置 300–20000；线上实际值未确认，不能等同源码默认值。验证依据见 automation/BLOG_IMPORT_RULES_V3.2.5.md（源码核验，不证明线上部署一致）。
 这些是核对时状态，后续必须重新检查，不据此永久跳过工作。
