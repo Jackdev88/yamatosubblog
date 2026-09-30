@@ -1,32 +1,496 @@
 [
-  {"topic":"SRT 字幕时间轴不准确怎么办","intent":"教程","status":"used","usedAt":"2026-09-30"},
-  {"topic":"字幕整体提前或延后怎么调整","intent":"教程","status":"pending"},
-  {"topic":"SRT 和 VTT 有什么区别","intent":"知识","status":"pending"},
-  {"topic":"SRT 怎么转换成 VTT","intent":"教程","status":"pending"},
-  {"topic":"VTT 怎么转换成 SRT","intent":"教程","status":"pending"},
-  {"topic":"中日双语字幕怎么制作","intent":"教程","status":"pending"},
-  {"topic":"两份 SRT 字幕怎么合并成双语字幕","intent":"教程","status":"pending"},
-  {"topic":"日语视频怎么生成中文字幕","intent":"教程","status":"pending"},
-  {"topic":"MP4 视频怎么生成 SRT 字幕","intent":"教程","status":"pending"},
-  {"topic":"MKV 视频如何生成日文字幕","intent":"教程","status":"pending"},
-  {"topic":"音频转 SRT 字幕的完整流程","intent":"教程","status":"pending"},
-  {"topic":"语音识别字幕时间轴为什么不准确","intent":"排错","status":"pending"},
-  {"topic":"日语字幕乱码怎么解决","intent":"排错","status":"pending"},
-  {"topic":"Shift-JIS 字幕如何转换为 UTF-8","intent":"教程","status":"pending"},
-  {"topic":"SRT 字幕格式错误怎么检查","intent":"排错","status":"pending"},
-  {"topic":"VTT 字幕格式基础教程","intent":"知识","status":"pending"},
-  {"topic":"日语影视字幕翻译要注意什么","intent":"知识","status":"pending"},
-  {"topic":"日语敬语在中文字幕里怎么处理","intent":"翻译","status":"pending"},
-  {"topic":"日语省略主语为什么容易翻译错","intent":"翻译","status":"pending"},
-  {"topic":"字幕人物名和专有名词如何保持一致","intent":"翻译","status":"pending"},
-  {"topic":"中文字幕一行多少字更适合观看","intent":"知识","status":"pending"},
-  {"topic":"字幕分行有哪些常见原则","intent":"知识","status":"pending"},
-  {"topic":"AI 字幕翻译后为什么仍要人工校对","intent":"知识","status":"pending"},
-  {"topic":"SRT 字幕时间码格式详解","intent":"知识","status":"pending"},
-  {"topic":"WebVTT 适合哪些网页视频场景","intent":"知识","status":"pending"},
-  {"topic":"如何给日语学习视频制作中日双语字幕","intent":"教程","status":"pending"},
-  {"topic":"字幕翻译中的直译和自然中文有什么区别","intent":"翻译","status":"pending"},
-  {"topic":"长视频生成字幕前应该如何处理音频","intent":"教程","status":"pending"},
-  {"topic":"WAV、MP3、M4A 做语音识别有什么区别","intent":"知识","status":"pending"},
-  {"topic":"字幕制作完成后如何检查开头中段和结尾","intent":"教程","status":"pending"}
+  {
+    "topic": "SRT 字幕时间轴不准确怎么办",
+    "intent": "教程",
+    "status": "used",
+    "usedAt": "2026-09-30"
+  },
+  {
+    "topic": "字幕整体提前或延后怎么调整",
+    "intent": "教程",
+    "status": "pending",
+    "editorialStatus": "duplicate",
+    "duplicateOf": "SRT 字幕时间轴不准确怎么办",
+    "editorialNote": "已投递文章涵盖整体提前/延后，不另写同意图教程；保留历史字段。"
+  },
+  {
+    "topic": "SRT 和 VTT 有什么区别",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "SRT 怎么转换成 VTT",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "VTT 怎么转换成 SRT",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "中日双语字幕怎么制作",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "两份 SRT 字幕怎么合并成双语字幕",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "日语视频怎么生成中文字幕",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "MP4 视频怎么生成 SRT 字幕",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "MKV 视频如何生成日文字幕",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "音频转 SRT 字幕的完整流程",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "语音识别字幕时间轴为什么不准确",
+    "intent": "排错",
+    "status": "pending"
+  },
+  {
+    "topic": "日语字幕乱码怎么解决",
+    "intent": "排错",
+    "status": "pending"
+  },
+  {
+    "topic": "Shift-JIS 字幕如何转换为 UTF-8",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "SRT 字幕格式错误怎么检查",
+    "intent": "排错",
+    "status": "pending"
+  },
+  {
+    "topic": "VTT 字幕格式基础教程",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "日语影视字幕翻译要注意什么",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "日语敬语在中文字幕里怎么处理",
+    "intent": "翻译",
+    "status": "pending"
+  },
+  {
+    "topic": "日语省略主语为什么容易翻译错",
+    "intent": "翻译",
+    "status": "pending"
+  },
+  {
+    "topic": "字幕人物名和专有名词如何保持一致",
+    "intent": "翻译",
+    "status": "pending"
+  },
+  {
+    "topic": "中文字幕一行多少字更适合观看",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "字幕分行有哪些常见原则",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "AI 字幕翻译后为什么仍要人工校对",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "SRT 字幕时间码格式详解",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "WebVTT 适合哪些网页视频场景",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "如何给日语学习视频制作中日双语字幕",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "字幕翻译中的直译和自然中文有什么区别",
+    "intent": "翻译",
+    "status": "pending"
+  },
+  {
+    "topic": "长视频生成字幕前应该如何处理音频",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "WAV、MP3、M4A 做语音识别有什么区别",
+    "intent": "知识",
+    "status": "pending"
+  },
+  {
+    "topic": "字幕制作完成后如何检查开头中段和结尾",
+    "intent": "教程",
+    "status": "pending"
+  },
+  {
+    "topic": "日剧没有中文字幕怎么办？先看看你手里有没有日文字幕",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "本地已有日剧但缺少中文的观众",
+    "materials": "视频或日文字幕",
+    "primaryNeed": "区分有文字字幕、无字幕和画面硬字幕",
+    "candidateSearchTerms": [
+      "日剧没有中文字幕怎么办"
+    ],
+    "articleType": "观看",
+    "verificationRequirement": "核对字幕翻译与音视频识别当前支持范围",
+    "productEntry": "/guide",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "迅雷下载的视频没有字幕，先检查字幕轨和外挂文件",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "迅雷桌面播放用户",
+    "materials": "视频与可能的外挂字幕",
+    "primaryNeed": "判断是否已有字幕轨与外挂文件",
+    "candidateSearchTerms": [
+      "迅雷视频没字幕"
+    ],
+    "articleType": "平台",
+    "verificationRequirement": "官方来源核验并实测指定版本；无法实测换题",
+    "productEntry": "",
+    "productStage": "current-needs-test",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "从字幕站找到字幕以后，怎样判断是不是同一个视频版本",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "拿到字幕但不确定版本的观众",
+    "materials": "视频和字幕文件",
+    "primaryNeed": "集数、片长、版本信息与抽查",
+    "candidateSearchTerms": [
+      "字幕版本不匹配"
+    ],
+    "articleType": "找字幕",
+    "verificationRequirement": "品牌站点需核验现行入口，无法访问写通用方法",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "日剧只找到英文字幕，还能做中文字幕吗",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "只找到英文字幕的观众",
+    "materials": "英文文字字幕",
+    "primaryNeed": "二次翻译误差与可用处理路线",
+    "candidateSearchTerms": [
+      "英文字幕翻译中文"
+    ],
+    "articleType": "流程选择",
+    "verificationRequirement": "核对所述工具语言支持，未确认不宣传大和支持英语",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "射手网（伪）assrt 找字幕时，视频文件名有什么用",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "查找匹配字幕的观众",
+    "materials": "视频文件名",
+    "primaryNeed": "匹配信息与服务边界",
+    "candidateSearchTerms": [
+      "assrt 字幕文件名匹配"
+    ],
+    "articleType": "找字幕",
+    "verificationRequirement": "官方 API 文档核验，不混同历史射手网",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "日本综艺没人做字幕，识别时最容易错在哪些地方",
+    "intent": "排错",
+    "status": "pending",
+    "targetAudience": "综艺观众",
+    "materials": "可合法处理的节目媒体",
+    "primaryNeed": "多人重叠、笑声与专名校对",
+    "candidateSearchTerms": [
+      "日语综艺字幕识别错误"
+    ],
+    "articleType": "质量",
+    "verificationRequirement": "核对识别官方资料，不虚构准确率",
+    "productEntry": "/guide",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "VLC 怎么加载单独下载的 SRT 字幕",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "VLC 桌面观众",
+    "materials": "视频和 SRT",
+    "primaryNeed": "加载外部字幕与选择轨道",
+    "candidateSearchTerms": [
+      "VLC 加载 SRT"
+    ],
+    "articleType": "平台",
+    "verificationRequirement": "核对 VideoLAN 官方说明；需测试的操作不虚构",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "字幕站搜不到某部日剧，可以换哪些检索信息",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "找不到字幕的观众",
+    "materials": "作品名称和集数",
+    "primaryNeed": "名称、年份、集数与版本检索",
+    "candidateSearchTerms": [
+      "日剧字幕搜不到"
+    ],
+    "articleType": "找字幕",
+    "verificationRequirement": "只解释检索方法，不承诺结果与字幕存在",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "YouTube 日语视频没有中文字幕，先分清自动字幕和自动翻译",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "YouTube 日语内容观众",
+    "materials": "在线页面",
+    "primaryNeed": "区分识别错误与翻译选项",
+    "candidateSearchTerms": [
+      "YouTube 日语中文字幕"
+    ],
+    "articleType": "平台",
+    "verificationRequirement": "核对 YouTube 官方支持，不写任意链接导入",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "下载字幕以后手机看不到：先确认你用的是哪种播放方式",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "手机与云盘观看用户",
+    "materials": "视频和外挂字幕",
+    "primaryNeed": "系统播放器、云盘与第三方播放器区别",
+    "candidateSearchTerms": [
+      "手机外挂字幕不显示"
+    ],
+    "articleType": "观看",
+    "verificationRequirement": "选设备和版本实测；不能确认则换通用判断题",
+    "productEntry": "",
+    "productStage": "current-needs-test",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "日语采访想反复听，怎样整理字幕与复听记录",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "日语学习者",
+    "materials": "有授权采访与字幕",
+    "primaryNeed": "按时间记录听不懂的对白",
+    "candidateSearchTerms": [
+      "日语采访听力字幕"
+    ],
+    "articleType": "学习",
+    "verificationRequirement": "原文校对不承诺学习效果，与语音转写教程区分",
+    "productEntry": "/guide",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "日语视频转字幕以后，怎么交给剪辑软件继续修改",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "小型创作者",
+    "materials": "识别后的 SRT",
+    "primaryNeed": "字幕文件与画面排版区别",
+    "candidateSearchTerms": [
+      "日语字幕导入剪辑软件"
+    ],
+    "articleType": "创作",
+    "verificationRequirement": "核对指定软件国内版本格式；需要实测时必须测试",
+    "productEntry": "",
+    "productStage": "current-needs-test",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "实时日语字幕为什么总慢半拍？识别和翻译分别在等什么",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "浏览器日语内容观众",
+    "materials": "在线音视频",
+    "primaryNeed": "延迟原因与质量取舍",
+    "candidateSearchTerms": [
+      "实时日语字幕延迟"
+    ],
+    "articleType": "实时认知",
+    "verificationRequirement": "研究技术一手资料，不承诺大和实时插件上线",
+    "productEntry": "",
+    "productStage": "planned-general-only",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "日本纪录片没有中文解说字幕，怎样处理旁白和专有名词",
+    "intent": "排错",
+    "status": "pending",
+    "targetAudience": "纪录片观众",
+    "materials": "授权媒体或旁白字幕",
+    "primaryNeed": "识别、翻译与知识错误区分",
+    "candidateSearchTerms": [
+      "日语纪录片字幕专有名词"
+    ],
+    "articleType": "质量",
+    "verificationRequirement": "关键专业术语查一手资料，不虚构节目样例",
+    "productEntry": "/guide",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "两小时日语电影做中文字幕，提交前怎样估算时间和费用",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "担心长片成本的观众",
+    "materials": "授权长片或已有字幕",
+    "primaryNeed": "识别时长与翻译字符计费区分",
+    "candidateSearchTerms": [
+      "日语电影字幕费用"
+    ],
+    "articleType": "费用",
+    "verificationRequirement": "当前线上计费与限制核验；只能用明确标注的计算示例",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "Netflix 某部日剧没有中文字幕，是设置问题还是本来没提供",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "正版流媒体观众",
+    "materials": "Netflix 页面",
+    "primaryNeed": "语言、地区与设备选项",
+    "candidateSearchTerms": [
+      "Netflix 日剧没有中文字幕"
+    ],
+    "articleType": "平台",
+    "verificationRequirement": "依据 Netflix 官方帮助，不绕保护或给下载链路",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "视频已经有日文字幕在画面上，为什么不能当 SRT 直接翻译",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "手里只有硬字幕视频的观众",
+    "materials": "画面硬字幕视频",
+    "primaryNeed": "文字字幕、OCR 与语音识别差别",
+    "candidateSearchTerms": [
+      "硬字幕翻译 SRT"
+    ],
+    "articleType": "观看",
+    "verificationRequirement": "不承诺大和 OCR；所提 OCR 工具核验官方说明",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "在线观看和下载字幕分别适合什么情况？先看你要不要保存文件",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "在线与本地观看用户",
+    "materials": "在线视频或字幕文件",
+    "primaryNeed": "即时理解与保存校对取舍",
+    "candidateSearchTerms": [
+      "在线观看字幕保存"
+    ],
+    "articleType": "流程选择",
+    "verificationRequirement": "不把规划插件当可用方案",
+    "productEntry": "",
+    "productStage": "planned-general-only",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "发现日语字幕错译，怎样留下别人能够核对的纠错记录",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "字幕校对者与团队",
+    "materials": "原文与译文",
+    "primaryNeed": "时间码、上下文和版本记录",
+    "candidateSearchTerms": [
+      "日语字幕纠错记录"
+    ],
+    "articleType": "协作",
+    "verificationRequirement": "自写示例，匿名化，不宣传未上线论坛",
+    "productEntry": "",
+    "productStage": "planned-general-only",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  },
+  {
+    "topic": "分享字幕前，该写清楚哪些视频版本和来源信息",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "字幕制作者",
+    "materials": "已获得分享授权的字幕",
+    "primaryNeed": "版本、来源和授权信息记录",
+    "candidateSearchTerms": [
+      "字幕分享版本说明"
+    ],
+    "articleType": "协作",
+    "verificationRequirement": "不默认字幕可自由转载；不提供资源下载合集",
+    "productEntry": "",
+    "productStage": "planned-general-only",
+    "publishedUrl": null,
+    "editorialBatch": "audience-plan-20260930"
+  }
 ]
