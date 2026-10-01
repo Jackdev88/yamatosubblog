@@ -156,7 +156,7 @@
   {
     "topic": "日剧没有中文字幕怎么办？先看看你手里有没有日文字幕",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "本地已有日剧但缺少中文的观众",
     "materials": "视频或日文字幕",
     "primaryNeed": "区分有文字字幕、无字幕和画面硬字幕",
@@ -168,7 +168,10 @@
     "productEntry": "/guide",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "usedAt": "2026-10-01",
+    "articleSlug": "japanese-drama-no-chinese-subtitles",
+    "articleTitle": "日剧没有中文字幕怎么办？先判断有没有日文字幕"
   },
   {
     "topic": "迅雷下载的视频没有字幕，先检查字幕轨和外挂文件",
