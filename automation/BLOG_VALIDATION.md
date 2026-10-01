@@ -46,7 +46,7 @@ HTML 检查比服务端清洗更严格：只允许源码白名单标签与输入
 2. 检查本 PR 的 `blog-validation` 和合并到 main 后的 push 自测，记录实际结果；bootstrap 结果不冒充稿件端到端通过。
 3. 确认后台 minimumCharacters，并设置以上两个非敏感仓库变量。
 4. 管理员在 Settings → General → Pull Requests 勾选 Allow auto-merge；Settings → Branches → Add branch protection rule，匹配 main，启用 Require a pull request before merging、Require status checks to pass before merging，选择 blog-validation，启用 Require branches to be up to date before merging。保留已有审核数和其他限制，不添加绕过，不允许强推/删除；若已有规则则编辑原规则，不另造更弱规则。
-5. 对未来本任务文章 PR，编辑自检通过并创建 PR 后，确认范围、同日唯一稿、无冲突、main 必需检查已触发并处于等待状态，即可请求 GitHub 自动合并；GitHub 等检查与已有审核要求全部通过后再合并。检查失败时保留 PR，必要时取消尚存的自动合并请求，修复后重新检查；观察合并、导入响应与网站草稿状态。
+5. 对未来本任务创建的文章 PR，编辑自检通过并创建 PR 后，先核对范围、同日唯一稿、无冲突、最新 head SHA、main 必需检查及现有审核要求。必需检查已触发且仍在等待时请求 GitHub 自动合并；若检查先于请求完成且 PR 已可合并，或自动合并请求因此被拒绝，重新核对上述条件及全部必需检查已成功后，通过正常 PR 合并操作并指定预期 head SHA；不能直接推 main、绕过保护或合并配置 PR。检查失败、状态无法核实或审核未满足时保留 PR，必要时取消尚存的自动合并请求，修复并重新检查后重试。合并后观察对应 SHA 的导入响应与网站草稿状态。
 
 当前 GitHub 连接没有仓库设置/分支保护写工具，读完整保护细节也曾返回 403。上述第 4 步需要管理员手动完成；不能据此报告已开启。网站仍保持 draft，不更改 runtime.defaultStatus。
 
