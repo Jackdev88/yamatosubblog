@@ -101,7 +101,10 @@
   {
     "topic": "字幕人物名和专有名词如何保持一致",
     "intent": "翻译",
-    "status": "pending"
+    "status": "used",
+    "usedAt": "2026-10-02",
+    "articleSlug": "consistent-japanese-subtitle-names",
+    "articleTitle": "日语字幕里人名和称呼不一致，怎样逐项校对？"
   },
   {
     "topic": "中文字幕一行多少字更适合观看",
