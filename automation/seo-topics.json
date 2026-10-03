@@ -332,7 +332,7 @@
   {
     "topic": "日语采访想反复听，怎样整理字幕与复听记录",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "日语学习者",
     "materials": "有授权采访与字幕",
     "primaryNeed": "按时间记录听不懂的对白",
@@ -344,7 +344,10 @@
     "productEntry": "/guide",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "usedAt": "2026-10-03",
+    "articleSlug": "japanese-interview-listening-notes",
+    "articleTitle": "日语采访听不清？把字幕变成能回头复听的笔记"
   },
   {
     "topic": "日语视频转字幕以后，怎么交给剪辑软件继续修改",
