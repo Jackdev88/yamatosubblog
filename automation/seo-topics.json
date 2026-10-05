@@ -196,7 +196,7 @@
   {
     "topic": "从字幕站找到字幕以后，怎样判断是不是同一个视频版本",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "拿到字幕但不确定版本的观众",
     "materials": "视频和字幕文件",
     "primaryNeed": "集数、片长、版本信息与抽查",
@@ -208,7 +208,10 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "usedAt": "2026-10-04",
+    "articleSlug": "subtitle-video-version-match",
+    "articleTitle": "字幕下载了却对不上？先判断是不是同一个视频版本"
   },
   {
     "topic": "日剧只找到英文字幕，还能做中文字幕吗",
@@ -332,7 +335,7 @@
   {
     "topic": "日语采访想反复听，怎样整理字幕与复听记录",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "日语学习者",
     "materials": "有授权采访与字幕",
     "primaryNeed": "按时间记录听不懂的对白",
@@ -344,7 +347,10 @@
     "productEntry": "/guide",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "usedAt": "2026-10-03",
+    "articleSlug": "japanese-interview-listening-notes",
+    "articleTitle": "日语采访听不清？把字幕变成能回头复听的笔记"
   },
   {
     "topic": "日语视频转字幕以后，怎么交给剪辑软件继续修改",
