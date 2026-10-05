@@ -9,6 +9,15 @@ export const LIMITS = {title:180,slug:160,excerpt:500,content:120000,category:80
 const TAGS = new Set('p br h2 h3 h4 strong b em i u s ul ol li blockquote a img figure figcaption hr code pre'.split(' '));
 const VOID = new Set(['br','hr','img']);
 export const CONFIG = new Set(['automation/README.md','automation/EDITORIAL_PLAN_CN.md','automation/CODEX_TASK_PROMPT_CN.md','automation/CONFIG_AUDIT_20260930.md','automation/BLOG_IMPORT_RULES_V3.2.5.md','automation/BLOG_VALIDATION.md','automation/seo-topics.json','.github/workflows/blog-validation.yml','scripts/blog-validation.mjs','scripts/blog-validation.test.mjs','scripts/import-rich-text.mjs','scripts/blog-ci.mjs']);
+// Exact documentation paths only; article scope remains unchanged.
+CONFIG.add('automation/skills/de-ai-writing/SKILL.md');
+CONFIG.add('automation/skills/de-ai-writing/UPSTREAM.md');
+CONFIG.add('automation/skills/de-ai-writing/references/ai-trace-index.md');
+CONFIG.add('automation/skills/de-ai-writing/references/discourse-pass.md');
+CONFIG.add('automation/skills/de-ai-writing/references/narrative-pass.md');
+CONFIG.add('automation/skills/de-ai-writing/references/syntax-pass.md');
+CONFIG.add('automation/skills/de-ai-writing/references/translation-guardrails.md');
+CONFIG.add('automation/skills/de-ai-writing/references/vocab-pass.md');
 const check = (v, m) => { if (!v) throw new Error(m); };
 const object = v => v !== null && typeof v === 'object' && !Array.isArray(v);
 export function parseJson(s) {
