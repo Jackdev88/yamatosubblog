@@ -423,7 +423,7 @@
   {
     "topic": "Netflix 某部日剧没有中文字幕，是设置问题还是本来没提供",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "正版流媒体观众",
     "materials": "Netflix 页面",
     "primaryNeed": "语言、地区与设备选项",
@@ -435,7 +435,10 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "usedAt": "2026-10-05",
+    "articleSlug": "netflix-japanese-drama-chinese-subtitles",
+    "articleTitle": "Netflix 日剧没有中文字幕，怎样查语言设置和下载选项"
   },
   {
     "topic": "视频已经有日文字幕在画面上，为什么不能当 SRT 直接翻译",
