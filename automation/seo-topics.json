@@ -16,7 +16,10 @@
   {
     "topic": "SRT 和 VTT 有什么区别",
     "intent": "知识",
-    "status": "pending"
+    "status": "used",
+    "usedAt": "2026-10-06",
+    "articleSlug": "srt-vtt-differences",
+    "articleTitle": "SRT 和 VTT 到底该选哪个？看播放位置就够了"
   },
   {
     "topic": "SRT 怎么转换成 VTT",
