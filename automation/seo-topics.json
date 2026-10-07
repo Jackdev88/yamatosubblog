@@ -112,7 +112,10 @@
   {
     "topic": "中文字幕一行多少字更适合观看",
     "intent": "知识",
-    "status": "pending"
+    "status": "used",
+    "usedAt": "2026-10-07",
+    "articleSlug": "chinese-subtitle-line-length",
+    "articleTitle": "中文字幕一行写多少字？16 字只是排版起点"
   },
   {
     "topic": "字幕分行有哪些常见原则",
