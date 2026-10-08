@@ -3,7 +3,11 @@
     "topic": "SRT 字幕时间轴不准确怎么办",
     "intent": "教程",
     "status": "used",
-    "usedAt": "2026-09-30"
+    "usedAt": "2026-09-30",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "字幕整体提前或延后怎么调整",
@@ -11,7 +15,11 @@
     "status": "pending",
     "editorialStatus": "duplicate",
     "duplicateOf": "SRT 字幕时间轴不准确怎么办",
-    "editorialNote": "已投递文章涵盖整体提前/延后，不另写同意图教程；保留历史字段。"
+    "editorialNote": "已投递文章涵盖整体提前/延后，不另写同意图教程；保留历史字段。",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "SRT 和 VTT 有什么区别",
@@ -19,87 +27,161 @@
     "status": "used",
     "usedAt": "2026-10-06",
     "articleSlug": "srt-vtt-differences",
-    "articleTitle": "SRT 和 VTT 到底该选哪个？看播放位置就够了"
+    "articleTitle": "SRT 和 VTT 到底该选哪个？看播放位置就够了",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "SRT 怎么转换成 VTT",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
   },
   {
     "topic": "VTT 怎么转换成 SRT",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
   },
   {
     "topic": "中日双语字幕怎么制作",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "学习",
+    "targetAudience": "日语学习者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "两份 SRT 字幕怎么合并成双语字幕",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "学习",
+    "targetAudience": "日语学习者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "日语视频怎么生成中文字幕",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "创作",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "MP4 视频怎么生成 SRT 字幕",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "创作",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "MKV 视频如何生成日文字幕",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "创作",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "音频转 SRT 字幕的完整流程",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "创作",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "语音识别字幕时间轴为什么不准确",
     "intent": "排错",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "创作",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "日语字幕乱码怎么解决",
     "intent": "排错",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "Shift-JIS 字幕如何转换为 UTF-8",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "SRT 字幕格式错误怎么检查",
     "intent": "排错",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "VTT 字幕格式基础教程",
     "intent": "知识",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
   },
   {
     "topic": "日语影视字幕翻译要注意什么",
     "intent": "知识",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "日语敬语在中文字幕里怎么处理",
     "intent": "翻译",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "日语省略主语为什么容易翻译错",
     "intent": "翻译",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "字幕人物名和专有名词如何保持一致",
@@ -107,7 +189,11 @@
     "status": "used",
     "usedAt": "2026-10-02",
     "articleSlug": "consistent-japanese-subtitle-names",
-    "articleTitle": "日语字幕里人名和称呼不一致，怎样逐项校对？"
+    "articleTitle": "日语字幕里人名和称呼不一致，怎样逐项校对？",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "中文字幕一行多少字更适合观看",
@@ -115,52 +201,100 @@
     "status": "used",
     "usedAt": "2026-10-07",
     "articleSlug": "chinese-subtitle-line-length",
-    "articleTitle": "中文字幕一行写多少字？16 字只是排版起点"
+    "articleTitle": "中文字幕一行写多少字？16 字只是排版起点",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "字幕分行有哪些常见原则",
     "intent": "知识",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
   },
   {
     "topic": "AI 字幕翻译后为什么仍要人工校对",
     "intent": "知识",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "SRT 字幕时间码格式详解",
     "intent": "知识",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
   },
   {
     "topic": "WebVTT 适合哪些网页视频场景",
     "intent": "知识",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
   },
   {
     "topic": "如何给日语学习视频制作中日双语字幕",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "学习",
+    "targetAudience": "日语学习者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "字幕翻译中的直译和自然中文有什么区别",
     "intent": "翻译",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "质量",
+    "targetAudience": "字幕制作者与校对者",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "长视频生成字幕前应该如何处理音频",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "创作",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "WAV、MP3、M4A 做语音识别有什么区别",
     "intent": "知识",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "创作",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "字幕制作完成后如何检查开头中段和结尾",
     "intent": "教程",
-    "status": "pending"
+    "status": "pending",
+    "articleType": "文件处理",
+    "targetAudience": "处理日语视频与字幕的用户",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
   },
   {
     "topic": "日剧没有中文字幕怎么办？先看看你手里有没有日文字幕",
@@ -180,7 +314,9 @@
     "editorialBatch": "audience-plan-20260930",
     "usedAt": "2026-10-01",
     "articleSlug": "japanese-drama-no-chinese-subtitles",
-    "articleTitle": "日剧没有中文字幕怎么办？先判断有没有日文字幕"
+    "articleTitle": "日剧没有中文字幕怎么办？先判断有没有日文字幕",
+    "contentFocus": "观看选择",
+    "writingForm": "操作"
   },
   {
     "topic": "迅雷下载的视频没有字幕，先检查字幕轨和外挂文件",
@@ -197,7 +333,9 @@
     "productEntry": "",
     "productStage": "current-needs-test",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "操作"
   },
   {
     "topic": "从字幕站找到字幕以后，怎样判断是不是同一个视频版本",
@@ -217,7 +355,9 @@
     "editorialBatch": "audience-plan-20260930",
     "usedAt": "2026-10-04",
     "articleSlug": "subtitle-video-version-match",
-    "articleTitle": "字幕下载了却对不上？先判断是不是同一个视频版本"
+    "articleTitle": "字幕下载了却对不上？先判断是不是同一个视频版本",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "日剧只找到英文字幕，还能做中文字幕吗",
@@ -234,7 +374,9 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "比较"
   },
   {
     "topic": "射手网（伪）assrt 找字幕时，视频文件名有什么用",
@@ -251,7 +393,9 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "字幕寻找",
+    "writingForm": "解释"
   },
   {
     "topic": "日本综艺没人做字幕，识别时最容易错在哪些地方",
@@ -268,7 +412,9 @@
     "productEntry": "/guide",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "VLC 怎么加载单独下载的 SRT 字幕",
@@ -285,7 +431,9 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "操作"
   },
   {
     "topic": "字幕站搜不到某部日剧，可以换哪些检索信息",
@@ -302,7 +450,9 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "字幕寻找",
+    "writingForm": "解释"
   },
   {
     "topic": "YouTube 日语视频没有中文字幕，先分清自动字幕和自动翻译",
@@ -319,7 +469,9 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "操作"
   },
   {
     "topic": "下载字幕以后手机看不到：先确认你用的是哪种播放方式",
@@ -336,7 +488,9 @@
     "productEntry": "",
     "productStage": "current-needs-test",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "操作"
   },
   {
     "topic": "日语采访想反复听，怎样整理字幕与复听记录",
@@ -356,7 +510,9 @@
     "editorialBatch": "audience-plan-20260930",
     "usedAt": "2026-10-03",
     "articleSlug": "japanese-interview-listening-notes",
-    "articleTitle": "日语采访听不清？把字幕变成能回头复听的笔记"
+    "articleTitle": "日语采访听不清？把字幕变成能回头复听的笔记",
+    "contentFocus": "学习用途",
+    "writingForm": "操作"
   },
   {
     "topic": "日语视频转字幕以后，怎么交给剪辑软件继续修改",
@@ -373,7 +529,9 @@
     "productEntry": "",
     "productStage": "current-needs-test",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "实时日语字幕为什么总慢半拍？识别和翻译分别在等什么",
@@ -390,7 +548,9 @@
     "productEntry": "",
     "productStage": "planned-general-only",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "解释"
   },
   {
     "topic": "日本纪录片没有中文解说字幕，怎样处理旁白和专有名词",
@@ -407,7 +567,9 @@
     "productEntry": "/guide",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "两小时日语电影做中文字幕，提交前怎样估算时间和费用",
@@ -424,7 +586,9 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "费用取舍",
+    "writingForm": "比较"
   },
   {
     "topic": "Netflix 某部日剧没有中文字幕，是设置问题还是本来没提供",
@@ -444,7 +608,9 @@
     "editorialBatch": "audience-plan-20260930",
     "usedAt": "2026-10-05",
     "articleSlug": "netflix-japanese-drama-chinese-subtitles",
-    "articleTitle": "Netflix 日剧没有中文字幕，怎样查语言设置和下载选项"
+    "articleTitle": "Netflix 日剧没有中文字幕，怎样查语言设置和下载选项",
+    "contentFocus": "观看选择",
+    "writingForm": "操作"
   },
   {
     "topic": "视频已经有日文字幕在画面上，为什么不能当 SRT 直接翻译",
@@ -461,7 +627,9 @@
     "productEntry": "",
     "productStage": "current-needs-verification",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "操作"
   },
   {
     "topic": "在线观看和下载字幕分别适合什么情况？先看你要不要保存文件",
@@ -478,7 +646,9 @@
     "productEntry": "",
     "productStage": "planned-general-only",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "观看选择",
+    "writingForm": "比较"
   },
   {
     "topic": "发现日语字幕错译，怎样留下别人能够核对的纠错记录",
@@ -498,7 +668,9 @@
     "editorialBatch": "audience-plan-20260930",
     "usedAt": "2026-10-08",
     "articleSlug": "subtitle-translation-correction-record",
-    "articleTitle": "字幕错译怎么提，别人才能改得动"
+    "articleTitle": "字幕错译怎么提，别人才能改得动",
+    "contentFocus": "文件处理",
+    "writingForm": "操作"
   },
   {
     "topic": "分享字幕前，该写清楚哪些视频版本和来源信息",
@@ -515,6 +687,29 @@
     "productEntry": "",
     "productStage": "planned-general-only",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "contentFocus": "文件处理",
+    "writingForm": "操作",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-08 内容比例复盘：与近期格式、排版或版本协作稿相邻；独立研究确认新的搜索意图后，由配置 PR 恢复。"
+  },
+  {
+    "topic": "看日剧学日语，中文字幕什么时候开、什么时候关",
+    "intent": "知识",
+    "status": "pending",
+    "targetAudience": "用日剧练听力的日语学习者",
+    "materials": "有权观看的日语内容与可切换字幕",
+    "primaryNeed": "选择中文字幕、日文字幕与无字幕的使用时机",
+    "candidateSearchTerms": [
+      "看日剧学日语要不要开中文字幕"
+    ],
+    "articleType": "学习",
+    "contentFocus": "学习用途",
+    "writingForm": "解释",
+    "verificationRequirement": "核对可获得的一手学习研究或教学资料；区分个人选择与有证据的学习结论，不承诺学习效果，不虚构实测",
+    "productEntry": "",
+    "productStage": "planned-general-only",
+    "publishedUrl": null,
+    "editorialBatch": "balance-review-20261008"
   }
 ]
