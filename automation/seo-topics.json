@@ -483,7 +483,7 @@
   {
     "topic": "发现日语字幕错译，怎样留下别人能够核对的纠错记录",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "字幕校对者与团队",
     "materials": "原文与译文",
     "primaryNeed": "时间码、上下文和版本记录",
@@ -495,7 +495,10 @@
     "productEntry": "",
     "productStage": "planned-general-only",
     "publishedUrl": null,
-    "editorialBatch": "audience-plan-20260930"
+    "editorialBatch": "audience-plan-20260930",
+    "usedAt": "2026-10-08",
+    "articleSlug": "subtitle-translation-correction-record",
+    "articleTitle": "字幕错译怎么提，别人才能改得动"
   },
   {
     "topic": "分享字幕前，该写清楚哪些视频版本和来源信息",
