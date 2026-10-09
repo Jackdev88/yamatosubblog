@@ -634,7 +634,7 @@
   {
     "topic": "在线观看和下载字幕分别适合什么情况？先看你要不要保存文件",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "在线与本地观看用户",
     "materials": "在线视频或字幕文件",
     "primaryNeed": "即时理解与保存校对取舍",
@@ -648,7 +648,10 @@
     "publishedUrl": null,
     "editorialBatch": "audience-plan-20260930",
     "contentFocus": "观看选择",
-    "writingForm": "比较"
+    "writingForm": "比较",
+    "usedAt": "2026-10-09",
+    "articleSlug": "watch-online-or-save-subtitles",
+    "articleTitle": "看懂就够了，还要下载字幕吗？"
   },
   {
     "topic": "发现日语字幕错译，怎样留下别人能够核对的纠错记录",
