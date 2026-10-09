@@ -446,12 +446,14 @@
     "editorialBatch": "audience-plan-20260930",
     "contentFocus": "观看选择",
     "writingForm": "操作",
-    "editorialTitle": "下载了字幕，怎么在 VLC 里显示出来？",
+    "editorialTitle": "历史候选：VLC 字幕加载（暂缓）",
     "userQuestion": "本地视频和 SRT 是两个文件，怎么一起播放？",
-    "readerOutcome": "在已核验的桌面 VLC 版本加载独立字幕并看到画面上的文字",
-    "editorialPriority": "P1",
+    "readerOutcome": "仅用户明确提出该软件需求时再研究，不作为现行播放使用优先题",
+    "editorialPriority": "deferred",
     "editorialTrack": "用户问题",
-    "editorialRevision": "needs-first-20261009"
+    "editorialRevision": "needs-first-20261009",
+    "editorialStatus": "deferred",
+    "editorialReason": "2026-10-09 用户要求中国用户常用软件优先；保留原topic与历史字段，不主动选择VLC。"
   },
   {
     "topic": "字幕站搜不到某部日剧，可以换哪些检索信息",
@@ -894,5 +896,26 @@
     "readerOutcome": "比较不同收费输入，避免把单位不同的单价直接比贵便宜",
     "editorialPriority": "P3",
     "editorialTrack": "行业分析"
+  },
+  {
+    "topic": "迅雷播放器怎么加载下载的字幕？",
+    "intent": "教程",
+    "status": "pending",
+    "targetAudience": "中国用户：手里有本地视频和单独下载的字幕",
+    "materials": "有权观看的视频与独立字幕文件",
+    "primaryNeed": "让已有字幕显示在播放画面上",
+    "articleType": "观看",
+    "contentFocus": "播放使用",
+    "writingForm": "操作",
+    "verificationRequirement": "核验迅雷播放器当前具体版本、电脑或手机入口及独立字幕支持；需要实际测试而不能执行时不编菜单，不以VLC步骤替代，也不承诺所有播放器通用",
+    "productEntry": "",
+    "productStage": "current-needs-verification",
+    "publishedUrl": null,
+    "editorialBatch": "needs-first-20261009",
+    "editorialTitle": "迅雷播放器怎么加载下载的字幕？",
+    "userQuestion": "视频和字幕是两个文件，怎样一起播放？",
+    "readerOutcome": "在明确核验的迅雷播放环境选择正确文件，确认中文字幕显示在画面上",
+    "editorialPriority": "P1",
+    "editorialTrack": "用户问题"
   }
 ]
