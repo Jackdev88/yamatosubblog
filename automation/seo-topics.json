@@ -900,7 +900,7 @@
   {
     "topic": "迅雷播放器怎么加载下载的字幕？",
     "intent": "教程",
-    "status": "pending",
+    "status": "used",
     "targetAudience": "中国用户：手里有本地视频和单独下载的字幕",
     "materials": "有权观看的视频与独立字幕文件",
     "primaryNeed": "让已有字幕显示在播放画面上",
@@ -916,6 +916,9 @@
     "userQuestion": "视频和字幕是两个文件，怎样一起播放？",
     "readerOutcome": "在明确核验的迅雷播放环境选择正确文件，确认中文字幕显示在画面上",
     "editorialPriority": "P1",
-    "editorialTrack": "用户问题"
+    "editorialTrack": "用户问题",
+    "usedAt": "2026-10-10",
+    "articleSlug": "load-local-subtitles-in-xunlei-player",
+    "articleTitle": "迅雷播放器怎么加载下载的字幕？"
   }
 ]
